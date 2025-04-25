@@ -8,12 +8,14 @@ import BusinessCategories from "@/components/business-categories";
 import FeaturesPlanet from "@/components/features-planet";
 import LargeTestimonial from "@/components/large-testimonial";
 import Cta from "@/components/cta";
+import { InfiniteMovingCardsDemo } from "@/components/demo/InfiniteMovingCards";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <BusinessCategories />
+      <InfiniteMovingCardsDemo />
       <FeaturesPlanet />
       <LargeTestimonial />
       <Cta />
