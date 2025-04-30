@@ -93,6 +93,9 @@ importers:
       '@types/aos':
         specifier: ^3.0.7
         version: 3.0.7
+      '@types/three':
+        specifier: ^0.176.0
+        version: 0.176.0
       postcss:
         specifier: ^8.5.1
         version: 8.5.1

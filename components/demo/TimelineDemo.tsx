@@ -4,12 +4,14 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
-      title: "2024",
+      title: "🟣 Укрепление доверия",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            Отсутствие сайта в 2025 году вызывает сомнения у потенциальных
+            клиентов. Профессиональный сайт — это визитная карточка,
+            подтверждающая серьезность ваших намерений: "Мы здесь, мы настоящие,
+            мы профессионалы".
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -45,14 +47,20 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "🟠 Автоматизация продаж",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            Сайт — это инструмент, который работает на вас круглосуточно.
+            Клиенты могут оформлять заказы, отправлять заявки и даже оплачивать
+            товары и услуги в любое время суток — без участия менеджеров и без
+            ожидания.
           </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            Автоматизация процессов позволяет сократить время на обработку
+            заказов и снизить вероятность ошибок. Вы можете настроить
+            автоматические уведомления, напоминания и отчеты, чтобы быть в курсе
+            всех событий.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -88,27 +96,36 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Changelog",
+      title: "🔵 Прозрачная аналитика",
       content: (
         <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          <p className="mb-4 text-xs font-bold text-neutral-800 md:text-sm">
+            Сайт предоставляет детальную информацию о поведении посетителей:
+            сколько людей зашло, откуда они пришли (Instagram, Google, реклама),
+            какие страницы их заинтересовали. Эти данные помогают понять, что
+            работает, а что требует изменений.
           </p>
           <div className="mb-8">
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            <div className="flex items-center font-bold gap-2 text-lg text-neutral-900 md:text-sm ">
+              Почему таргетированная реклама — ключ к росту
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              Таргет позволяет показывать рекламу именно тем людям, которые с
+              наибольшей вероятностью заинтересуются вашим предложением.
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              Вы платите только за показы тем, кто действительно может стать
+              вашим клиентом, а не за "охваты ради охватов".
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              Все результаты рекламных кампаний доступны в реальном времени — вы
+              всегда знаете, сколько клиентов привлекла каждая реклама и какова
+              её эффективность.
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              Таргетированная реклама работает даже если у вас нет подписчиков и
+              только запускается сайт — это идеальный инструмент для быстрого
+              старта.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">

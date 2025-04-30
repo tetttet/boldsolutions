@@ -1,15 +1,32 @@
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
-import Avatar01 from "@/public/images/avatar-01.jpg";
-import Avatar02 from "@/public/images/avatar-02.jpg";
-import Avatar03 from "@/public/images/avatar-03.jpg";
-import Avatar04 from "@/public/images/avatar-04.jpg";
-import Avatar05 from "@/public/images/avatar-05.jpg";
-import Avatar06 from "@/public/images/avatar-06.jpg";
 import { AnimatedTextUnderlign } from "./ui/AnimatedTextUnderlign";
 import { AuroraBackground } from "./ui/aurora-background";
+import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
+import { text } from "stream/consumers";
 
 export default function HeroHome() {
+  const words = [
+    {
+      text: "Комплексные",
+    },
+    {
+      text: "digital-решения",
+    },
+    {
+      text: "для малого",
+    },
+    {
+      text: "и",
+    },
+    {
+      text: "среднего бизнеса:",
+    },
+    {
+      text: "Aceternity.",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+  ];
   return (
     <AuroraBackground>
       <section className="relative">
@@ -20,23 +37,24 @@ export default function HeroHome() {
             {/* Section header */}
             <div className="pb-12 text-center md:pb-16">
               <div
-                className="mb-6  [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
+                className="mb-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
                 data-aos="zoom-y-out"
               ></div>
               <h1
-                className="mb-6  text-5xl font-bold [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] md:text-6xl"
+                className="mb-6 text-5xl font-bold [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] md:text-6xl"
                 data-aos="zoom-y-out"
                 data-aos-delay={150}
               >
                 <AnimatedTextUnderlign />
               </h1>
-              <div className="mx-auto max-w-3xl">
+              <div className="mx-auto max-w-4xl">
+              <TypewriterEffectSmooth words={words} />
                 <p
-                  className="mb-8 text-lg text-gray-700"
+                  className="mb-8 text-lg text-gray-700 -mt-5"
                   data-aos="zoom-y-out"
                   data-aos-delay={300}
                 >
-                  Clients | Sales | Profit
+                  Instagram, сайты, таргет, мессенджеры — всё в одних руках
                 </p>
                 <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                   <div
@@ -49,57 +67,13 @@ export default function HeroHome() {
                       href="#0"
                     >
                       <span className="relative inline-flex items-center">
-                        Start Free Trial{" "}
+                        Получить бесплатную консультацию{" "}
                         <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                           -&gt;
                         </span>
                       </span>
                     </a>
-                    <a
-                      className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                      href="#0"
-                    >
-                      Learn More
-                    </a>
                   </div>
-                </div>
-              </div>
-            </div>
-            {/* Hero image */}
-            <div
-              className="mx-auto max-w-3xl"
-              data-aos="zoom-y-out"
-              data-aos-delay={600}
-            >
-              <div className="relative aspect-video rounded-2xl bg-gray-900 px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-300/.8),transparent)1]">
-                <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,var(--color-gray-600)_4.5px,transparent_0)] after:w-[41px]">
-                  <span className="text-[13px] font-medium text-white">
-                    cruip.com
-                  </span>
-                </div>
-                <div className="font-mono text-gray-500 [&_span]:opacity-0">
-                  <span className="animate-[code-1_10s_infinite] text-gray-200">
-                    npm login
-                  </span>{" "}
-                  <span className="animate-[code-2_10s_infinite]">
-                    --registry=https://npm.pkg.github.com
-                  </span>
-                  <br />
-                  <span className="animate-[code-3_10s_infinite]">
-                    --scope=@phanatic
-                  </span>{" "}
-                  <span className="animate-[code-4_10s_infinite]">
-                    Successfully logged-in.
-                  </span>
-                  <br />
-                  <br />
-                  <span className="animate-[code-5_10s_infinite] text-gray-200">
-                    npm publish
-                  </span>
-                  <br />
-                  <span className="animate-[code-6_10s_infinite]">
-                    Package published.
-                  </span>
                 </div>
               </div>
             </div>

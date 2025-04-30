@@ -37,11 +37,11 @@ export const AnimatedTextUnderlign = () => {
             />
           </motion.svg>
           <span className="relative font-alliance text-blue-500">
-            BoldSolutions
+          Превращаем
           </span>
         </span>{" "}
-        is for quality <br className="max-lg:hidden" />
-        and performance
+        ваш бизнес в <br className="max-lg:hidden" />
+        цифровой успех
       </h1>
     </div>
   );
