@@ -48,7 +48,7 @@ export default function HeroHome() {
                 <AnimatedTextUnderlign />
               </h1>
               <div className="mx-auto max-w-4xl">
-              <TypewriterEffectSmooth words={words} />
+                <TypewriterEffectSmooth words={words} />
                 <p
                   className="mb-8 text-lg text-gray-700 -mt-5"
                   data-aos="zoom-y-out"
@@ -67,10 +67,12 @@ export default function HeroHome() {
                       href="#0"
                     >
                       <span className="relative inline-flex items-center">
-                        Получить бесплатную консультацию{" "}
-                        <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                          -&gt;
-                        </span>
+                        <a href="https://wa.me/905546761565">
+                          <span className="font-bold">Получить бесплатную консультацию </span>
+                          <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                            -&gt;
+                          </span>
+                        </a>
                       </span>
                     </a>
                   </div>

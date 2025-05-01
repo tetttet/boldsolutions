@@ -24,7 +24,7 @@ export default function Header() {
           <ul className="hidden md:flex items-center gap-4 text-sm font-medium text-gray-800">
             <li>
               <Link
-                href="/about"
+                href="#timeline"
                 className="px-4 py-2 rounded-xl hover:bg-blue-50 transition-colors duration-200"
               >
                 Про нас
@@ -32,7 +32,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/services"
+                href="#sticky-scroll-reveal"
                 className="px-4 py-2 rounded-xl hover:bg-blue-50 transition-colors duration-200"
               >
                 Сервисы
@@ -40,7 +40,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/contacts"
+                href="#wobble-card"
                 className="px-4 py-2 rounded-xl hover:bg-blue-50 transition-colors duration-200"
               >
                 Контакты
